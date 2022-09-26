@@ -68,7 +68,7 @@ const createWindow = () => {
   // console.log("print process.env.npm_lifecycle_event", process.env.npm_lifecycle_event);
   // and load the index.html of the app.
   if (process.env.npm_lifecycle_event === "electron:dev") {
-    mainWindow.loadURL('http://localhost:3000')
+    mainWindow.loadURL('http://localhost:3019')
     // Open the DevTools.
     mainWindow.webContents.openDevTools()
 
